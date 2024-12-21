@@ -67,8 +67,8 @@ public class SET<T> {
 		}
 		for (int i = 0; i < size; i++) {
 			if (holdingSet.contains((T) set[i])) {
-            returnedSet.add((T) set[i]);
-         }
+            			returnedSet.add((T) set[i]);
+         		}
 		}
 		return returnedSet;
 	}
@@ -167,16 +167,16 @@ public class SET<T> {
 	 * @param comparedSet The set to compare with.
 	 * @return True if the set is a subset, false otherwise.
 	 */
-   @SuppressWarnings("unchecked")
+   	@SuppressWarnings("unchecked")
 	public boolean isSubset(SET<T> comparedSet) {
 		boolean subSet = true;
 		if (comparedSet.cardinality() <= size) { 
-         subSet = false;
-      }
+         		subSet = false;
+        	}
 		for (int i = 0; i < set.length; i++) {
 			if (!comparedSet.contains((T) set[i])) {
-            subSet = false;
-         }
+                		subSet = false;
+        		}
 		}
 		return subSet;
 	}
@@ -192,8 +192,8 @@ public class SET<T> {
 		int position = 0;
 		while (!contains && position < size) {
 			if (set[position].equals(elem)) {
-            contains = true;
-         }
+            			contains = true;
+         		}
 			position++;
 		}
 		return contains;
