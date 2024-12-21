@@ -17,7 +17,7 @@ public class SET<T> {
 	
 	private Object[] set;
 	private int size = 0;
-   private static final int MAX_SIZE = 10000;
+   	private static final int MAX_SIZE = 10000;
 	
 	/**
 	 * Constructs an empty set.
