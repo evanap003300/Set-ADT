@@ -4,7 +4,7 @@ This project is a custom Java implementation of a basic **Set** data structure d
 
 ---
 
-## 💡 Overview
+## Overview
 The `SET` class supports fundamental set theory operations through an intuitive API, designed for learning and practicing data structure concepts using Java.
 
 This project focuses on:
@@ -14,7 +14,7 @@ This project focuses on:
 
 ---
 
-## 🧠 Features
+## Features
 - `add()` — Adds an element to the set (if not already present).
 - `delete()` — Removes an element from the set.
 - `union()` — Combines two sets into one.
@@ -27,16 +27,15 @@ This project focuses on:
 
 ---
 
-## 🧑‍💻 Technologies Used
+## Technologies Used
 - Java 17
 - Standard Java Collections (Array-based backend)
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository.
-2. Compile the `SET.java` file.
-3. Run the `main` method for a simple test of the class functionality:
+2. Compile and run the `SET.java` file.
 ```bash
 javac SET.java
 java SET
