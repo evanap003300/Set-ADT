@@ -5,7 +5,7 @@ This project is a custom Java implementation of a basic **Set** data structure d
 ---
 
 ## Overview
-The `SET` class supports fundamental set theory operations through an intuitive API, designed for learning and practicing data structure concepts using Java.
+The `SET` class supports fundamental set operations.
 
 This project focuses on:
 - Understanding object-oriented design.
